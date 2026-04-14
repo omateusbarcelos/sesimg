@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperação de Tributos FIEMG</title>
+    <style>
+        /* Importação da Gibson ou similar via Adobe/Typekit se tiver o link, 
+           caso contrário, o sistema usará as fontes seguras abaixo */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Gibson', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #003399; /* Azul FIEMG */
+        }
+        .header-img {
+            width: 100%;
+            display: block;
+        }
+        .content {
+            padding: 40px 30px;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+        .headline {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-transform: none;
+        }
+        .subheadline {
+            font-size: 18px;
+            margin-bottom: 30px;
+            font-weight: normal;
+        }
+        .bullet-list {
+            margin: 20px 0;
+            padding: 0;
+            list-style: none;
+        }
+        .bullet-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+        }
+        .bullet-item::before {
+            content: ">";
+            position: absolute;
+            left: 0;
+            color: #5ac8fa;
+            font-weight: bold;
+        }
+        .btn-container {
+            text-align: center;
+            padding: 30px 0;
+        }
+        .button {
+            background-color: #ffffff;
+            color: #003399;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 12px;
+            background-color: #002d86;
+        }
+        .logo {
+            width: 120px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" class="container">
+        <tr>
+            <td>
+                <img src="SUA_URL_DA_IMAGEM_AQUI" alt="Profissional trabalhando" class="header-img">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="content">
+                <div class="headline" style="color: #5ac8fa;">
+                    Recupere tributos pagos indevidamente.
+                </div>
+                <div class="headline" style="font-size: 24px;">
+                    Descubra como a FIEMG pode te ajudar.
+                </div>
+
+                <p style="font-weight: bold; font-size: 16px; margin-top: 40px;">
+                    Você sabia que é possível recuperar tributos pagos indevidamente para a Receita Federal?
+                </p>
+                <p>
+                    A FIEMG, junto com seus parceiros, oferece um serviço exclusivo para identificar e recuperar esses valores de forma segura, rápida e eficiente.
+                </p>
+
+                <hr style="border: 0; border-top: 1px solid rgba(255,255,255,0.2); margin: 30px 0;">
+
+                <p style="font-weight: bold;">Com tecnologia avançada e uma equipe especializada, você terá:</p>
+                
+                <ul class="bullet-list">
+                    <li class="bullet-item">Diagnósticos precisos realizados por software exclusivo.</li>
+                    <li class="bullet-item">Segurança jurídica, com a adoção de teses respaldadas por decisões já validadas pelo Poder Judiciário e Tribunal Administrativo.</li>
+                    <li class="bullet-item">Resultados reais e condições diferenciadas para indústrias associadas.</li>
+                </ul>
+
+                <p style="font-style: italic; color: #5ac8fa; margin-top: 30px;">
+                    Agende um diagnóstico gratuito agora e descubra quanto sua empresa pode recuperar.
+                </p>
+
+                <div class="btn-container">
+                    <a href="SEU_LINK_AQUI" class="button">Quero um diagnóstico gratuito</a>
+                </div>
+
+                <p style="font-weight: bold; margin-top: 20px;">Benefícios para sua empresa:</p>
+                <ul class="bullet-list">
+                    <li class="bullet-item">Redução da carga tributária.</li>
+                    <li class="bullet-item">Recuperação de valores pagos indevidamente.</li>
+                    <li class="bullet-item">Suporte completo com especialistas em contabilidade e direito tributário.</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="footer">
+                <p>Produto exclusivo para indústrias vinculadas à FIEMG.</p>
+                <img src="URL_LOGO_FIEMG_BRANCO" alt="FIEMG" class="logo">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
